@@ -6,4 +6,26 @@ This is a Password Generator Application which enables employees to generate ran
 
 This will help user to access to sensitive data and randomly generate a password which will provide greater security.
 
+## Installation
+
+To be able to install the project follow the link:
+
+* " https://sunny9810.github.io/Password-Generator-JS/ " . 
+ 
+ The application should show up as it follows on the attched screenshot:
+
+* "https://1drv.ms/u/s!AvrWj_l9pBSGnT3P8BCQ5qM83Rig?e=bfTzJa" .
+
+
+## Key Factors
+
+* HTML, CSS and Java Script were used to write this code
+* Application was modified to meet the acceptance criteria from user
+* 
+
+
+
+
+
+
 

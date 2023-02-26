@@ -21,7 +21,9 @@ To be able to install the project follow the link:
 
 * HTML, CSS and Java Script were used to write this code
 * Application was modified to meet the acceptance criteria from user
-* 
+* Application contains all features that were provided by the user
+
+
 
 
 

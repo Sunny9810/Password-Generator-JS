@@ -1,19 +1,4 @@
-// Assignment Code
-var generateBtn = document.querySelector("#generate");
-
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-
-}
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
-
-//Add specialCharacters list
+// Array of special characters to be included in password
 var specialCharacters = [
   '@',
   '%',
@@ -40,10 +25,10 @@ var specialCharacters = [
   '.',
 ];
 
-// Add NumericCharacters List
+// Array of numeric characters to be included in password
 var numericCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
-//Add lowerCasedCharacters List
+// Array of lowercase characters to be included in password
 var lowerCasedCharacters = [
   'a',
   'b',
@@ -102,3 +87,41 @@ var upperCasedCharacters = [
   'Y',
   'Z',
 ];
+
+// Function to prompt user for password options
+function getPasswordOptions() {
+  // Variable to store length of password from user input
+  var length = parseInt(
+    prompt('How many characters would you like your password to contain?'),
+    10
+  );
+
+  // Conditional statement to check if password length is a number. Prompts end if this evaluates false
+  if (Number.isNaN(length)) {
+    alert('Password length must be provided as a number');
+    return null;
+  }
+
+  // Conditional statement to check if password length is at least 8 characters long. Prompts end if this evaluates false
+  if (length < 8) {
+    alert('Password length must be at least 8 characters');
+    return null;
+  }
+
+  // Conditional statement to check if password length is less than 128 characters long. Prompts end if this evaluates false
+  if (length > 128) {
+    alert('Password length must less than 129 characters');
+    return null;
+  }
+
+  
+    
+
+
+  
+ 
+
+ 
+
+ 
+

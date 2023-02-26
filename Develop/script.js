@@ -153,6 +153,25 @@ function getPasswordOptions() {
     hasUpperCasedCharacters: hasUpperCasedCharacters,
   };
 
+  return passwordOptions;
+
+// Function for getting a random element from an array
+function getRandom(arr) {
+  var randIndex = Math.floor(Math.random() * arr.length);
+  var randElement = arr[randIndex];
+
+  return randElement;
+}
+
+// Function to generate password with user input
+function generatePassword() {
+  var options = getPasswordOptions();
+  // Variable to store password as it's being concatenated
+  var result = [];
+
+  // Array to store types of characters to include in password
+  var possibleCharacters = [];
+
   
     
 

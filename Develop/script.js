@@ -185,6 +185,20 @@ function generatePassword() {
      guaranteedCharacters.push(getRandom(specialCharacters));
    }
 
+    // Array to contain one of each type of chosen character to ensure each will be used
+  var guaranteedCharacters = [];
+
+  // Check if an options object exists, if not exit the function
+  if (!options) return null;
+
+  // Conditional statement that adds array of special characters into array of possible characters based on user input
+  // Push new random special character to guaranteedCharacters
+  if (options.hasSpecialCharacters) {
+    possibleCharacters = possibleCharacters.concat(specialCharacters);
+    guaranteedCharacters.push(getRandom(specialCharacters));
+  }
+  
+
   
     
 

@@ -155,6 +155,8 @@ function getPasswordOptions() {
 
   return passwordOptions;
 
+}
+
 // Function for getting a random element from an array
 function getRandom(arr) {
   var randIndex = Math.floor(Math.random() * arr.length);
@@ -242,6 +244,9 @@ var passwordText = document.querySelector('#password');
 
 passwordText.value = password;
 }
+
+// Add event listener to generate button
+generateBtn.addEventListener('click', writePassword);
 
 
   

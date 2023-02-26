@@ -33,6 +33,17 @@ To be able to install the project follow the link:
  * The above video shows the web application's appearance and fuctionality.
 
 
+ ## Result
+
+ * When user click the button to generate password, they will be presented  with a series of prompts for password criteria
+ * When user prompted for password criteria,they can select which criteria to include in the password
+ * When user prompted for the length of the password,they can choose a length of at least 8 characters and no more than 128 characters
+ * When user asks for character types to include in the password, they can confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+ * When user answer each prompt, they should be validated and at least one character type should be selected
+ * When user answeres all prompts then a password is generated that matches the selected criteria
+ * When the password is generated, the password is either displayed in an alert or written to the page
+
+
 
 
 

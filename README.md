@@ -44,6 +44,11 @@ To be able to install the project follow the link:
  * When the password is generated, the password is either displayed in an alert or written to the page
 
 
+ ## Project Status
+
+ * Completed
+
+
 
 
 

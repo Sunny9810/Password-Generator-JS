@@ -24,6 +24,17 @@ To be able to install the project follow the link:
 * Application contains all features that were provided by the user
 
 
+## Visuals
+
+* At the end project will have the view showed in attached video:
+
+" https://drive.google.com/file/d/1-eao6XTbuLzMnlag4raRDikSEGrztq5l/view "
+
+ * The above video shows the web application's appearance and fuctionality.
+
+
+
+
 
 
 
